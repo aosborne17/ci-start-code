@@ -36,5 +36,4 @@ deploy keys
 
 We then click add deploy key and name the key our name
 
-![Deploy Key](images/)
-post pick here
+![Deploy Key](images/public-ssh-key.png)
