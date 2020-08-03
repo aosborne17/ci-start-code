@@ -37,3 +37,23 @@ deploy keys
 We then click add deploy key and name the key our name
 
 ![Deploy Key](images/public-ssh-key.png)
+
+Jenkins needs authorization from github for the continuous delivery to take place, as a result we have created an SSH
+key
+
+Once we push from our computers to github, jenkins will automatically build and test the code with other code
+from the project, if passed it will be sent to production, otherwise we will receive a message that the build has failed
+
+In real life, the master branch is the production branch, we don't want to merge here immediately
+
+Jenkins is continuous because every time it receives a commit from the repo we have specified, it will build and then
+run the tests
+
+The key we used for github is a padlock, the private key we will use is the key which allows us to use jenkins
+
+SOURCE -->BUILD-->TEST        PRODUCTION
+Continuous Integration     Continuous Delivery/Deployment
+
+
+Deployment is done automatically
+Delivery is done manually
