@@ -54,6 +54,41 @@ The key we used for github is a padlock, the private key we will use is the key 
 SOURCE -->BUILD-->TEST        PRODUCTION
 Continuous Integration     Continuous Delivery/Deployment
 
-
 Deployment is done automatically
 Delivery is done manually
+
+
+## Software Development Life Cycle
+
+Also referred to as SDLC
+
+### **Three Main Stages**
+- Development
+- Testing
+- Release
+
+These stages have been historically slow and hence the importance of DevOps
+
+We cannot put the software in front of the user unless all the tests have been done
+
+As long as we understand the concepts of testing the software, it shouldn't matter what tools we are using
+If our software can only deal with 100,000 users, once we reach this level we want to be able to handle the exception,
+we'd want to send the users to a 'under construction' page rather than going to a 404
+
+Before DevOps, many applications failed at run time as they weren't continuously integrated and tested repeatedly and thus
+you would lose your clients
+
+
+Continuous delivery comes after the integration and putting the code in a deployable state but it is not yet put in front
+of the client
+Continuous deployment however is when we release the software to the client and they are able to see it
+
+## Software as a service
+
+SaaS --> Software is licensed on a subscription basis and centrally hosted
+
+SaaS is part of a body of systems that make up cloud computing, other parts include:
+
+- Infrastructure as a service (IaaS)
+- desktop as a service (DaaS)
+- platform as a service (PaaS)
